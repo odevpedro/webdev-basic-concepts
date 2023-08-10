@@ -1,0 +1,133 @@
+O que é um browser?
+
+É uma aplicação que roda do lado do cliente que permite que o mesmo acesse websites na internet.
+Esse acesso pode ser feito tanto através de url's quanto pelos endereços IP's especificos
+
+Podemos tomar a internet como uma grande biblioteca e o navegador seria um interprete que te disponibiliza
+o livro que você quiser, desde que ele exista. Acontece que esses livros são escritos em uma linguagem que você
+não pode ler: html, css e js o navegador então serve como um interprete para que traduz essas linguagens desconhecidas
+para os usuários.
+
+Passo a passo do processo abordado: 
+O navegador envia a solicitação para o servidor onde o site está hospedado.
+O servidor responde com os arquivos do site (geralmente em HTML, CSS, JS e outros formatos de mídia).
+O navegador interpreta esses arquivos. Primeiro, lê o HTML para criar a estrutura da página. Em seguida, aplica o CSS para estilizar a página. Por fim, executa qualquer JavaScript para adicionar funcionalidade interativa.
+O navegador renderiza a página para que você possa vê-la e interagir com ela.
+
+Fluxograma que representa as etpas da requisição até a resposta:
+
++------------------------------------+
+| 1. Usuário insere URL ou clica link |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| 2. Navegador envia solicitação     |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| 3. Servidor processa a solicitação |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| 4. Servidor envia resposta         |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| 5. Navegador interpreta o HTML     |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| 6. Navegador aplica o CSS          |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| 7. Navegador executa JavaScript    |
++------------------------------------+
+                 |
+                 v
++------------------------------------+
+| 8. Página completamente renderizada|
++------------------------------------+
+
+
+Porcentagem de usuário para cada navegador
+    - https://gs.statcounter.com/
+    - https://www.w3schools.com/browsers/
+    - https://caniuse.com/
+
+
+
+Anatomia da Tag
+tag: definir, estruturar e categorizar o conteúdo
+Etiquetas que servem para marcar um conteúdo no HTML. Geralmente abrimos <a>  e fechamos </a> após o conteúdo
+
+<a href="https://www.example.com">Visite nosso site</a>
+
+Tag de Abertura: É a parte que começa com < e termina com >. No nosso exemplo, a tag de abertura é <a>.
+
+Nome da Tag: Dentro das tags de abertura e fechamento, temos o nome da tag. Neste caso, o nome da tag é a, que representa um link (âncora).
+
+Atributos: As tags podem ter atributos, que fornecem informações adicionais sobre a tag. Um atributo tem um nome e um valor. No nosso exemplo:
+
+Nome do Atributo: href
+Valor do Atributo: "https://www.example.com"
+O atributo href especifica o URL para o qual o link aponta. Atributos são colocados dentro da tag de abertura.
+
+Conteúdo da Tag: É o que está entre a tag de abertura e a tag de fechamento. No nosso exemplo, o conteúdo da tag é "Visite nosso site". Esse conteúdo é o que será visível para os usuários e, quando eles clicarem nesse texto, serão levados ao URL especificado no atributo href.
+
+Tag de Fechamento: Após o conteúdo, temos a tag de fechamento que sinaliza o fim daquela tag específica. A tag de fechamento é semelhante à tag de abertura, mas tem uma barra (/) antes do nome da tag. No nosso exemplo, a tag de fechamento é </a>.
+<Tag de Abertura Nome da Tag Atributos>Conteúdo da Tag<Tag de Fechamento>
+
+
+Tags Comuns:
+
+Claro! Aqui está uma lista de algumas das tags HTML mais comuns, juntamente com uma breve descrição de cada uma:
+
+1. **`<html>`**: 
+   - Descrição: Define o início e o fim de um documento HTML. Todos os outros elementos HTML devem estar contidos dentro desta tag.
+   
+2. **`<head>`**: 
+   - Descrição: Contém metadados e informações que não são exibidas no conteúdo principal da página, como o título e os links para folhas de estilo.
+   
+3. **`<title>`**: 
+   - Descrição: Define o título da página, que aparece na aba do navegador.
+
+4. **`<body>`**: 
+   - Descrição: Contém todo o conteúdo visível da página, como texto, imagens e outros elementos.
+   
+5. **`<h1>`, `<h2>`, ... `<h6>`**: 
+   - Descrição: São tags de cabeçalho. `<h1>` é o cabeçalho de maior importância e `<h6>` é o de menor. Eles são usados para títulos e subtítulos.
+
+6. **`<p>`**: 
+   - Descrição: Define um parágrafo de texto.
+
+7. **`<a>`**: 
+   - Descrição: Cria um link (âncora). Comumente usado com o atributo `href` para especificar o URL do link.
+   
+8. **`<img>`**: 
+   - Descrição: Insere uma imagem na página. Geralmente usa o atributo `src` para especificar a URL ou o caminho da imagem.
+   
+9. **`<ul>`** e **`<ol>`**: 
+   - Descrição: Definem listas. `<ul>` é usado para listas não ordenadas (com marcadores) e `<ol>` para listas ordenadas (com números).
+   
+10. **`<li>`**: 
+   - Descrição: Representa um item em uma lista `<ul>` ou `<ol>`.
+   
+11. **`<div>`**: 
+   - Descrição: Um container genérico usado para agrupar outros elementos. Muito utilizado para estilização e scripting.
+   
+12. **`<span>`**: 
+   - Descrição: Semelhante ao `<div>`, mas é usado para agrupar ou aplicar estilos a partes pequenas de texto ou outros conteúdos inline (dentro de uma linha).
+   
+13. **`<br>`**: 
+   - Descrição: Insere uma quebra de linha.
+   
+14. **`<table>`, `<tr>`, `<td>`, `<th>`**: 
+   - Descrição: Usadas para criar tabelas. `<table>` define a tabela, `<tr>` define uma linha, `<td>` define uma célula e `<th>` define um cabeçalho de célula.
+   
